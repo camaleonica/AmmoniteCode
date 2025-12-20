@@ -1,0 +1,78 @@
+.mac-window {
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  box-shadow: 
+    inset -2px -2px 0px #808080,
+    inset 2px 2px 0px #ffffff,
+    4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  overflow: hidden;
+  font-family: 'Aujournuit', 'Aujournuit-Wide';
+}
+
+.mac-window-titlebar {
+  background: linear-gradient(to bottom, #0066cc 0%, #0052a3 100%);
+  color: white;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: bold;
+  height: 20px;
+  border-bottom: 1px solid #004080;
+}
+
+.mac-window-controls {
+  display: flex;
+  gap: 4px;
+}
+
+.mac-btn-close,
+.mac-btn-minimize,
+.mac-btn-maximize {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background: #ff0000;
+  color: transparent;
+  font-size: 8px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.mac-btn-close {
+  background: #ff5c5c;
+}
+
+.mac-btn-minimize {
+  background: #ffbd44;
+}
+
+.mac-btn-maximize {
+  background: #00ca4e;
+}
+
+.mac-btn-close:hover,
+.mac-btn-minimize:hover,
+.mac-btn-maximize:hover {
+  opacity: 0.8;
+}
+
+.mac-window-title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.5px;
+}
+
+.mac-window-content {
+  background: #c0c0c0;
+  padding: 8px;
+  min-height: 100px;
+}
+

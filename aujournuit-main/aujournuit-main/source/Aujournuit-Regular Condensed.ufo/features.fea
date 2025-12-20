@@ -1,0 +1,137 @@
+# Prefix: Languagesystems
+languagesystem latn dflt;
+languagesystem latn NLD;
+languagesystem latn CAT;
+languagesystem latn CSY;
+languagesystem latn DEU;
+languagesystem latn ENG;
+languagesystem latn ESP;
+languagesystem latn FRA;
+languagesystem latn HUN;
+
+feature aalt {
+# automatic
+feature locl;
+feature clig;
+feature sups;
+feature frac;
+feature ordn;
+feature ss01;
+} aalt;
+
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+} ccmp;
+
+feature locl {
+# automatic
+script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language CAT;
+lookup locl_latn_2 {
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_2;
+
+script latn;
+language NLD;
+lookup locl_latn_3 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_3;
+} locl;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature dlig {
+# automatic
+lookupflag IgnoreMarks;
+sub f f k by f_f_k;
+} dlig;
+
+feature liga {
+# automatic
+lookupflag IgnoreMarks;
+sub f f i by f_f_i;
+sub f f l by f_f_l;
+sub f f by f_f;
+sub f i by f_i;
+sub f l by f_l;
+} liga;
+
+feature ss01 {
+# automatic
+featureNames {
+	name "";
+};
+sub A by A.ss01;
+sub a by a.ss01;
+sub j by j.ss01;
+} ss01;
+
+feature clig {
+sub a q u a r i u s by Aquarius;
+sub a r i e s by Aries;
+sub t a u r u s by Taurus;
+sub g e m i n i by Gemini;
+sub c a n c e r by Cancer;
+sub l e o by Leo;
+sub v i r g o by Virgo;
+sub l i b r a by Libra;
+sub s c o r p i o by Scorpion;
+sub s c o r p i o n by Scorpion;
+sub s a g i t t a r i u s by Sagittarius;
+sub c a p r i c o r n by Capricorn;
+sub p i s c e s by Pisces;
+sub v e n u s by Venus;
+} clig;
+
+feature sups {
+# automatic
+sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+} sups;
+

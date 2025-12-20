@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipsis" format="2">
+  <advance width="388"/>
+  <unicode hex="2026"/>
+  <outline>
+    <component base="period" yOffset="-4" identifier="10FFBCFF"/>
+    <component base="period" xOffset="130" yOffset="-4" identifier="E1AC6BB0"/>
+    <component base="period" xOffset="258" yOffset="-4" identifier="9D1CC344"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>10FFBCFF</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>9D1CC344</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>E1AC6BB0</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

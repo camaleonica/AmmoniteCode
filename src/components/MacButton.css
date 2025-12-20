@@ -1,0 +1,65 @@
+.mac-button {
+  font-family: 'Aujournuit', 'Aujournuit-Wide';
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 12px;
+  border: 2px outset #c0c0c0;
+  background: #c0c0c0;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 
+    inset -2px -2px 0px #808080,
+    inset 2px 2px 0px #ffffff;
+  text-align: center;
+  outline: none;
+  user-select: none;
+  letter-spacing: 0.3px;
+}
+
+.mac-button:hover:not(:disabled) {
+  background: #d4d4d4;
+}
+
+.mac-button:active:not(:disabled) {
+  border: 2px inset #c0c0c0;
+  box-shadow: 
+    inset 2px 2px 0px #808080,
+    inset -2px -2px 0px #ffffff;
+  background: #a8a8a8;
+}
+
+.mac-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: #808080;
+}
+
+.mac-button-small {
+  padding: 2px 8px;
+  font-size: 10px;
+}
+
+.mac-button-medium {
+  padding: 4px 12px;
+  font-size: 11px;
+}
+
+.mac-button-large {
+  padding: 6px 16px;
+  font-size: 12px;
+}
+
+.mac-button-primary {
+  background: #0066cc;
+  color: white;
+  border-color: #004080;
+}
+
+.mac-button-primary:hover:not(:disabled) {
+  background: #0077dd;
+}
+
+.mac-button-primary:active:not(:disabled) {
+  background: #0055aa;
+}
+

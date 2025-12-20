@@ -1,0 +1,43 @@
+{
+glyphname = lslash;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+ref = l;
+},
+{
+alignment = -1;
+angle = 30;
+pos = (233,-111);
+ref = macron;
+scale = (0.8,0.8);
+}
+);
+width = 202;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (25,0);
+ref = l;
+},
+{
+alignment = -1;
+angle = 30;
+pos = (275,-172);
+ref = macron;
+scale = (0.8,0.8);
+}
+);
+width = 367;
+}
+);
+metricLeft = l;
+metricRight = l;
+unicode = 322;
+}

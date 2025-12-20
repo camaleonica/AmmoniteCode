@@ -1,0 +1,81 @@
+.mac-slider-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'Aujournuit', 'Aujournuit-Wide';
+  font-size: 11px;
+}
+
+.mac-slider-label {
+  font-weight: bold;
+  color: #000;
+  user-select: none;
+}
+
+.mac-slider-wrapper {
+  position: relative;
+}
+
+.mac-slider {
+  width: 100%;
+  height: 16px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #c0c0c0;
+  border: 2px inset #c0c0c0;
+  outline: none;
+  cursor: pointer;
+}
+
+.mac-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  cursor: pointer;
+  box-shadow: 
+    inset -1px -1px 0px #808080,
+    inset 1px 1px 0px #ffffff;
+}
+
+.mac-slider::-webkit-slider-thumb:active {
+  border: 2px inset #c0c0c0;
+  box-shadow: 
+    inset 1px 1px 0px #808080,
+    inset -1px -1px 0px #ffffff;
+}
+
+.mac-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  cursor: pointer;
+  box-shadow: 
+    inset -1px -1px 0px #808080,
+    inset 1px 1px 0px #ffffff;
+}
+
+.mac-slider::-moz-range-thumb:active {
+  border: 2px inset #c0c0c0;
+  box-shadow: 
+    inset 1px 1px 0px #808080,
+    inset -1px -1px 0px #ffffff;
+}
+
+.mac-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12px;
+  background: #c0c0c0;
+  border: 1px inset #c0c0c0;
+}
+
+.mac-slider::-moz-range-track {
+  width: 100%;
+  height: 12px;
+  background: #c0c0c0;
+  border: 1px inset #c0c0c0;
+}
+

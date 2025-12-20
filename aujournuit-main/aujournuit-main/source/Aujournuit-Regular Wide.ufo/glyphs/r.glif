@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r" format="2">
+  <advance width="512"/>
+  <unicode hex="0072"/>
+  <anchor x="216" y="0" name="bottom"/>
+  <anchor x="255" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="139" y="392" type="curve" smooth="yes"/>
+      <point x="139" y="120" type="line"/>
+      <point x="135" y="0" type="line" name="_corner00"/>
+      <point x="201" y="0" type="line" name="_corner01"/>
+      <point x="197" y="120" type="line"/>
+      <point x="197" y="208" type="line" smooth="yes"/>
+      <point x="197" y="369"/>
+      <point x="261" y="450"/>
+      <point x="380" y="450" type="curve" smooth="yes"/>
+      <point x="415" y="450"/>
+      <point x="422" y="445"/>
+      <point x="440" y="445" type="curve" smooth="yes"/>
+      <point x="459" y="445"/>
+      <point x="472" y="459"/>
+      <point x="472" y="477" type="curve" smooth="yes"/>
+      <point x="472" y="497"/>
+      <point x="456" y="510"/>
+      <point x="433" y="510" type="curve" smooth="yes"/>
+      <point x="337" y="510"/>
+      <point x="254" y="458"/>
+      <point x="205" y="367" type="curve" smooth="yes"/>
+      <point x="201" y="359"/>
+      <point x="197" y="348"/>
+      <point x="194" y="348" type="curve" smooth="yes"/>
+      <point x="192" y="348"/>
+      <point x="191" y="351"/>
+      <point x="191" y="360" type="curve" smooth="yes"/>
+      <point x="191" y="453"/>
+      <point x="207" y="489"/>
+      <point x="207" y="497" type="curve" smooth="yes"/>
+      <point x="207" y="504"/>
+      <point x="201" y="506"/>
+      <point x="196" y="506" type="curve" smooth="yes"/>
+      <point x="181" y="506"/>
+      <point x="181" y="486"/>
+      <point x="124" y="464" type="curve" smooth="yes"/>
+      <point x="72" y="443"/>
+      <point x="43" y="448"/>
+      <point x="43" y="436" type="curve" smooth="yes"/>
+      <point x="43" y="432"/>
+      <point x="48" y="429"/>
+      <point x="55" y="429" type="curve" smooth="yes"/>
+      <point x="132" y="429"/>
+      <point x="139" y="432"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.corners</key>
+      <array>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL.lowercase</string>
+          <key>origin</key>
+          <string>_corner00</string>
+          <key>scale</key>
+          <string>{-1, 1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifS.lowercase</string>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <string>_corner01</string>
+          <key>scale</key>
+          <string>{1.4, 1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=n</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=n-30</string>
+    </dict>
+  </lib>
+</glyph>

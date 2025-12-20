@@ -1,0 +1,69 @@
+.mac-menubar {
+  background: #c0c0c0;
+  border-bottom: 1px solid #808080;
+  display: flex;
+  padding: 2px 4px;
+  font-family: 'Aujournuit', 'Aujournuit-Wide';
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1000;
+}
+
+.mac-menubar-item {
+  position: relative;
+  padding: 4px 8px;
+  cursor: default;
+  user-select: none;
+}
+
+.mac-menubar-item:hover {
+  background: #0066cc;
+  color: white;
+}
+
+.mac-menubar-label {
+  letter-spacing: 0.3px;
+}
+
+.mac-menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 160px;
+  padding: 2px;
+  margin-top: 1px;
+}
+
+.mac-menu-item {
+  padding: 4px 20px 4px 24px;
+  cursor: default;
+  position: relative;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.mac-menu-item:hover:not(.disabled) {
+  background: #0066cc;
+  color: white;
+}
+
+.mac-menu-item.disabled {
+  color: #808080;
+  cursor: not-allowed;
+}
+
+.mac-menu-shortcut {
+  position: absolute;
+  right: 12px;
+  color: #808080;
+  font-size: 10px;
+}
+
+.mac-menu-item:hover:not(.disabled) .mac-menu-shortcut {
+  color: rgba(255, 255, 255, 0.8);
+}
+

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk" format="2">
+  <advance width="314"/>
+  <unicode hex="002A"/>
+  <outline>
+    <component base="_astriskside" xScale="-1" xOffset="198" identifier="363A8DB1"/>
+    <component base="_astriskside" xScale="-0.515" xyScale="-0.8572" yScale="0.515" yxScale="-0.8572" xOffset="662" yOffset="309" identifier="6A93944D"/>
+    <component base="_astriskside" yScale="-1" xOffset="116" yOffset="1130" identifier="52557F6D"/>
+    <component base="_astriskside" xScale="0.515" xyScale="0.8572" yScale="-0.515" yxScale="0.8572" xOffset="-348" yOffset="821" identifier="6477C955"/>
+    <component base="_astriskside" xScale="0.515" xyScale="-0.8572" yScale="0.515" yxScale="0.8572" xOffset="-348" yOffset="309" identifier="B9F0BD22"/>
+    <component base="_astriskside" xScale="-0.515" xyScale="0.8572" yScale="-0.515" yxScale="-0.8572" xOffset="662" yOffset="821" identifier="E437B0D3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>363A8DB1</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>52557F6D</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>6477C955</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>6A93944D</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>B9F0BD22</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>E437B0D3</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

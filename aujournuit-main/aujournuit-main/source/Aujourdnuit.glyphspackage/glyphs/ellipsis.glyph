@@ -1,0 +1,49 @@
+{
+glyphname = ellipsis;
+kernLeft = comma;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (0,-4);
+ref = period;
+},
+{
+alignment = -1;
+pos = (130,-4);
+ref = period;
+},
+{
+alignment = -1;
+pos = (258,-4);
+ref = period;
+}
+);
+width = 388;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (0,-4);
+ref = period;
+},
+{
+alignment = -1;
+pos = (190,-4);
+ref = period;
+},
+{
+alignment = -1;
+pos = (378,-4);
+ref = period;
+}
+);
+width = 506;
+}
+);
+unicode = 8230;
+}

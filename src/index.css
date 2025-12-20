@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definir fuente Aujournuit Wide como principal */
+@font-face {
+  font-family: 'Aujournuit';
+  src: url('/fonts/Aujournuit-Wide.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: expanded;
+}
+
+@font-face {
+  font-family: 'Aujournuit-Wide';
+  src: url('/fonts/Aujournuit-Wide.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: expanded;
+}
+
+body {
+  font-family: 'Aujournuit', 'Aujournuit-Wide';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #808080;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Aplicar Aujournuit globalmente a todos los elementos */
+*, *::before, *::after {
+  font-family: 'Aujournuit', 'Aujournuit-Wide';
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

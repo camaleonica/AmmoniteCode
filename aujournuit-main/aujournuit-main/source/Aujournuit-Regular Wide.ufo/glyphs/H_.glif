@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H" format="2">
+  <advance width="916"/>
+  <unicode hex="0048"/>
+  <anchor x="458" y="0" name="bottom"/>
+  <anchor x="458" y="350" name="center"/>
+  <anchor x="458" y="700" name="top"/>
+  <anchor x="70" y="700" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="208" y="0" type="line" name="_corner08"/>
+      <point x="208" y="700" type="line" name="_corner10"/>
+      <point x="138" y="700" type="line" name="_corner00"/>
+      <point x="138" y="0" type="line" name="_corner09"/>
+    </contour>
+    <contour>
+      <point x="708" y="700" type="line" name="_corner07"/>
+      <point x="708" y="0" type="line" name="_corner11"/>
+      <point x="778" y="0" type="line" name="_corner02"/>
+      <point x="778" y="700" type="line" name="_corner03"/>
+    </contour>
+    <contour>
+      <point x="204" y="444" type="curve"/>
+      <point x="188" y="444" type="line"/>
+      <point x="188" y="286" type="line"/>
+      <point x="204" y="286" type="line"/>
+      <point x="204" y="347"/>
+      <point x="213" y="357"/>
+      <point x="263" y="357" type="curve" smooth="yes"/>
+      <point x="653" y="357" type="line" smooth="yes"/>
+      <point x="703" y="357"/>
+      <point x="712" y="347"/>
+      <point x="712" y="286" type="curve"/>
+      <point x="728" y="286" type="line"/>
+      <point x="728" y="444" type="line"/>
+      <point x="712" y="444" type="line"/>
+      <point x="712" y="383"/>
+      <point x="703" y="373"/>
+      <point x="653" y="373" type="curve" smooth="yes"/>
+      <point x="263" y="373" type="line" smooth="yes"/>
+      <point x="213" y="373"/>
+      <point x="204" y="383"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.corners</key>
+      <array>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>2</integer>
+          <key>origin</key>
+          <string>_corner00</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <string>_corner01</string>
+          <key>scale</key>
+          <string>{-1, 1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <string>_corner02</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_segment.curve.capheight.outer</string>
+          <key>origin</key>
+          <string>_corner03</string>
+          <key>scale</key>
+          <string>{0.85, 1}</string>
+          <key>type</key>
+          <string>Segment</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>2</integer>
+          <key>origin</key>
+          <string>_corner04</string>
+          <key>scale</key>
+          <string>{1, -1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifS</string>
+          <key>origin</key>
+          <string>_corner05</string>
+          <key>scale</key>
+          <string>{-1, 1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifS</string>
+          <key>origin</key>
+          <string>_corner06</string>
+          <key>scale</key>
+          <string>{1, -1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifS</string>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <string>_corner07</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifS</string>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <string>_corner08</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_segment.curve.capheight.outer</string>
+          <key>origin</key>
+          <string>_corner09</string>
+          <key>type</key>
+          <string>Segment</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_segment.curve.capheight.inner</string>
+          <key>origin</key>
+          <string>_corner10</string>
+          <key>type</key>
+          <string>Segment</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_segment.curve.capheight.inner</string>
+          <key>origin</key>
+          <string>_corner11</string>
+          <key>scale</key>
+          <string>{0.85, 1}</string>
+          <key>type</key>
+          <string>Segment</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

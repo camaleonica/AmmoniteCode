@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threequarters" format="2">
+  <advance width="560"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <component base="threesuperior"/>
+    <component base="fraction" xOffset="95" identifier="8BB49C96"/>
+    <component base="foursuperior" xOffset="225" yOffset="-370"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>H</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8BB49C96</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

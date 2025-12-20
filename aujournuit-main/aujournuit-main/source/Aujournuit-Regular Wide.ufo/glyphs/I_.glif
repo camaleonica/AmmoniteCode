@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="350"/>
+  <unicode hex="0049"/>
+  <anchor x="175" y="0" name="bottom"/>
+  <anchor x="291" y="10" name="ogonek"/>
+  <anchor x="175" y="700" name="top"/>
+  <anchor x="50" y="700" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="212" y="0" type="line" name="_corner03"/>
+      <point x="212" y="700" type="line" name="_corner05"/>
+      <point x="138" y="700" type="line" name="_corner01"/>
+      <point x="138" y="0" type="line" name="_corner04"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.corners</key>
+      <array>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <string>_corner00</string>
+          <key>scale</key>
+          <string>{-1, 1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>2</integer>
+          <key>origin</key>
+          <string>_corner01</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>2</integer>
+          <key>origin</key>
+          <string>_corner02</string>
+          <key>scale</key>
+          <string>{-1, 1}</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_corner.LeftSerifL</string>
+          <key>options</key>
+          <integer>2</integer>
+          <key>origin</key>
+          <string>_corner03</string>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_segment.curve.capheight.outer</string>
+          <key>origin</key>
+          <string>_corner04</string>
+          <key>type</key>
+          <string>Segment</string>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>_segment.curve.capheight.outer</string>
+          <key>origin</key>
+          <string>_corner05</string>
+          <key>type</key>
+          <string>Segment</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>
